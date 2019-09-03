@@ -11,7 +11,7 @@ Live link: <a href="https://reactshop.xyz/" target="_blank"> Click here</a>
 
 ```bash
 # clone repository
-https://github.com/savajapurva/ecommerce-MERN.git
+https://github.com/savajapurva/ecommerce-MERN-Frontend.git
 
 # Install dependencies
 cd ecommerce-MERN && npm install
