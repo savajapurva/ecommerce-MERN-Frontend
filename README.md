@@ -1,68 +1,115 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# eCommerce-MERN
+The Book Store made with React, MongoDB, NodeJS &amp; ExpressJS
 
-## Available Scripts
+Live link: <a href="https://reactshop.xyz/" target="_blank"> Click here</a>
 
-In the project directory, you can run:
+<img src="img/React App.png">
 
-### `npm start`
+---
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Quick Start
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+```bash
+# clone repository
+https://github.com/savajapurva/ecommerce-MERN.git
 
-### `npm test`
+# Install dependencies
+cd ecommerce-MERN && npm install
+cd ecommerce-MERN-Frontend && npm install
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+Create an account in Braintree and create new App. Copy the provided credentials to your app. 
+Enter following creadentials in .env file.
 
-### `npm run build`
+```
+DATABASE=mongodb://localhost/ecommerce
+JWT_SECRET=hdfsajkfhlsdkja
+BRAINTREE_MERCHANT_ID=YOUR_OWN_ID
+BRAINTREE_PUBLIC_KEY=YOUR_OWN_KEY
+BRAINTREE_PRIVATE_KEY=YOUR_OWN_ID
+```
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the development server:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```bash
+# the development server runs on port 3000
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run production build:
 
-### `npm run eject`
+```bash
+# create code bundle
+npm run build
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# run production server
+npm run prod
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="img/React App (1).png">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+<img src="img/React App (4).png">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="img/React App (3).png">
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<img src="img/React App (6).png">
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+<img src="img/React App (8).png">
 
-### Making a Progressive Web App
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+<img src="img/React App (9).png">
 
-### Advanced Configuration
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<img src="img/React App (11).png">
 
-### Deployment
+---
+<img src="img/React App (10).png">
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+---
 
-### `npm run build` fails to minify
+## Main Technologies
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Client Side
+
+- [x] **[React](https://github.com/facebook/react)**
+- [x] **[Bootstap 4](https://github.com/twbs/bootstrap/tree/v4-dev)**
+- [x] **[React-Router-DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+
+#### Libraries used in Client-side
+
+- [x] **[query-string](https://github.com/sindresorhus/query-string)**
+- [x] **[moment](https://github.com/headzoo/react-moment)**
+- [x] **[braintree-web-drop-in-react](https://github.com/braintree/braintree-web)**
+- [x] **[braintree-web](https://github.com/braintree/braintree-web)**
+
+### Server Side
+
+- [x] **[Node.js / Express](https://github.com/expressjs/express)**
+- [x] **[MongoDB](https://github.com/mongodb/mongo)**
+- [x] **[JWT](https://github.com/auth0/node-jsonwebtoken)**
+- [x] **[dotenv](https://github.com/motdotla/dotenv)**
+- [x] **[cors](https://github.com/expressjs/cors)**
+- [x] **[uuid](https://github.com/kelektiv/node-uuid)**
+
+#### Libraries used in Server-side
+
+- [x] **[cookie-parser](https://github.com/expressjs/cookie-parser)**
+- [x] **[loadash](https://github.com/lodash/lodash)**
+- [x] **[formidable](https://github.com/node-formidable/node-formidable)**
+- [x] **[braintree](https://github.com/braintree)**
+- [x] **[morgan](https://github.com/expressjs/morgan)**
+- [x] **[mongoose](http://mongoosejs.com/)**
+- [x] **[jwt-decode](https://github.com/auth0/jwt-decode)**
+- [x] **[moment](https://momentjs.com/)**
+- [x] **[express-validator](https://github.com/express-validator/express-validator)**
