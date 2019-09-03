@@ -74,6 +74,10 @@ npm run prod
 <img src="img/React App (11).png">
 
 ---
+
+<img src="img/Welcome - Braintree Gateway.png">
+
+---
 <img src="img/React App (10).png">
 
 ---
